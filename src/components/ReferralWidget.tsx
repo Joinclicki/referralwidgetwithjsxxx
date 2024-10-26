@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Gift, X, User, Phone, Mail, Building2 } from 'lucide-react';
-import confetti from 'canvas-confetti';
+import * as confetti from 'canvas-confetti';
 import { clsx } from 'clsx';
 
 interface ReferralWidgetProps {
